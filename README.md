@@ -15,6 +15,11 @@ Project Monopoly: educate to liberate is an educational game that models the ine
 The game requires a game to be created by a moderator to open a game lobby allowing players to join. As a player, you enter your name and chose a token, you are then randomly assigned to a team. The team is made of two teams that is the Stripe and the Stars team. The stripe team is the disadvantages, and the stars team are the advantages. The disadvantage team begin with half the wealth of the advantage team, they are not permitted to buy certain properties (redlining), they do not have access to get out of jail card etc
 
 
+What the App does:
+- [ ] 1. User sees custom text in a label - Hello from {name}!
+- [ ] 2. User see's custom background color.
+- [ ] 3. User can tap a button to change the text color of the label.
+
 
 ## Available Scripts
 
