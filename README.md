@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Project - Monopoly
 
 ## Quick Demo
-<img src="https://imgur.com/a/1XEPSKp.gif" width=200>
+<img src="https://imgur.com/a/1XEPSKp" width=200>
 
 
 ## Project Description
