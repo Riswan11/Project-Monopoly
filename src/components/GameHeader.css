@@ -1,0 +1,12 @@
+.center{
+    text-align: center;
+    margin-top: 1%;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 3rem;
+
+}
+
+.button{
+    float:left;
+    margin-top: 1%;
+}

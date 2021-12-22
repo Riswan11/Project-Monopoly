@@ -1,0 +1,32 @@
+.rules-container {
+    margin: 0 auto 0 auto;
+    text-align: left;
+    padding: 30px 0;
+    outline: black;
+}
+
+@media (min-width: 900px) {
+    .keywords-container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}
+
+.rulesTeams {
+        padding: 20px;
+        box-sizing: border-box;
+        flex-basis: 50%;
+        font-size: 20px;
+        line-height: 25px;
+}
+
+.rulesTitle {
+    background-color: #ccf2ff;
+    color: black;
+    text-align: center;
+}
+
+#teamName {
+    font-size: 25px;
+}

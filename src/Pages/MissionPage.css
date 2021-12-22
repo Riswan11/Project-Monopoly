@@ -1,0 +1,115 @@
+.mission-container {
+    margin: 0 auto 0 auto;
+    text-align: left;
+    padding: 30px 0;
+}
+
+@media (min-width: 900px) {
+    .keywords-container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}
+
+.message {
+    padding: 0 200px 0 200px;
+    box-sizing: border-box;
+    flex-basis: 50%;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+#missionTitle {
+    text-align: center;
+    font-size: 85px;
+    color: #ccf2ff;
+    text-shadow: -1px 1px 0 #000,
+				  1px 1px 0 #000,
+				 1px -1px 0 #000,
+				 -1px -1px 0 #000;
+    line-height: 100px;
+    margin: 20px 200px 30px 200px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Choose dash OR line, delete the other */
+#dashTitle {
+    text-align: center;
+    font-size: 70px;
+    color: #ccf2ff;
+    text-shadow: -1px 1px 0 #000,
+				  1px 1px 0 #000,
+				 1px -1px 0 #000,
+				 -1px -1px 0 #000;
+    line-height: 10px;
+    margin: 0 0 0 0 ;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#lineTitle {
+    text-align: center;
+    font-size: 70px;
+    color: #ccf2ff;
+    text-shadow: -1px 1px 0 #000,
+				  1px 1px 0 #000,
+				 1px -1px 0 #000,
+				 -1px -1px 0 #000;
+    line-height: 10px;
+    margin: -30px 0 50px 0 ;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.missionQuote {
+    margin: 0 0 0 0;
+    text-align: left;
+    padding: 30px 0 0 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.doubleQuote {
+    box-sizing: border-box;
+    flex-basis: 20%;
+    padding-left: 70px;
+    padding: 0 0 0 300px;
+}
+
+.quote {
+    box-sizing: border-box;
+    flex-basis: 80%;
+    font-size: 70px;
+    line-height: 80px;
+    padding-right: 70px;
+    padding: 0 300px 0 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#star {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+/* animations!!!! */
+@media (prefers-reduced-motion: no-preference) {
+    #star {
+      animation-name: Star-logo-spin;
+      animation-duration: 3s;
+      animation-timing-function: ease-in-out
+    }
+  }
+  
+  /* spinning, yayyy!! */
+  @keyframes Star-logo-spin {
+    from {
+      transform: rotate(0deg);
+      opacity:.3;
+    }
+    to {
+      transform: rotate(1440deg);
+      opacity:1;
+    }
+  }
+
+  
+

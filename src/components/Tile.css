@@ -1,0 +1,11 @@
+.token{
+    display: flex;
+    position: absolute;
+  }
+
+.tilepic{
+  position: relative;
+}
+.chance{
+  top:25px;
+}

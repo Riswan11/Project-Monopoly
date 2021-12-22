@@ -1,0 +1,58 @@
+.rules-container {
+    margin: 40 px auto 0 auto;
+    text-align: left;
+    padding: 50px 0;
+    outline: black;
+}
+
+@media (min-width: 900px) {
+    .rules-container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}
+
+.title {
+    text-align: center;
+}
+
+.teams {
+    padding: 20px;
+    box-sizing: border-box;
+    flex-basis: 40%;
+    background-color: #e5f8ff;
+    font-size: 22px;
+    line-height: 35px;
+    border-style: ridge;
+}
+
+.subtitle {
+    text-align: center;
+}
+
+#rulesTitle {
+    text-align: center;
+    font-size: 85px;
+    color: #ccf2ff;
+    text-shadow: -1px 1px 0 #000,
+				  1px 1px 0 #000,
+				 1px -1px 0 #000,
+				 -1px -1px 0 #000;
+    line-height: 100px;
+    margin: 20px 200px 30px 200px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#lineTitle {
+    text-align: center;
+    font-size: 70px;
+    color: #ccf2ff;
+    text-shadow: -1px 1px 0 #000,
+				  1px 1px 0 #000,
+				 1px -1px 0 #000,
+				 -1px -1px 0 #000;
+    line-height: 10px;
+    margin: -30px 0 50px 0 ;
+    font-family: 'Times New Roman', Times, serif;
+}

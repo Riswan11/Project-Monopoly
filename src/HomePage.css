@@ -1,0 +1,132 @@
+  /* .App {
+    text-align: center;
+  }
+  
+  .App-header {
+    background-color: #A5C2E3;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  } */
+  
+  /* .Title {
+    font-family: Arial;
+    font-size: 100px;
+    color: black;
+
+  } */
+  
+  /* .Subtitle { */
+    /*use padding or margin*/
+    /*margin-top: 0px;*/
+    /* font-family: Arial;
+    font-size: 30px;
+    color: black;
+  } */
+  
+  /* .Slogan {
+    font-family: Arial;
+    font-size: 40px;
+    color: gray
+  } */
+  
+  /* .Create-Game-Button {
+    color: #385723;
+    background-color: #C5E0B4;
+    border-color:  #C5E0B4;
+    border-radius: 7px;
+    border-width: 10px 10px;
+  } */
+
+  .App {
+    text-align: center;
+  }
+  
+  .App-header {
+    background-color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+
+  .heading {
+    margin: 40 px auto 0 auto;
+    text-align: left;
+    padding: 50px 0;
+    outline: black;
+    display: flex;
+    flex: 70%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    /* background-color: lightskyblue; */
+}
+
+
+.man {
+    flex-basis: 10%;
+    text-align: right;
+    padding-right: -50px;
+    flex-direction: column-reverse;
+}
+
+.words {
+        padding: 20px 20px 20px -200px;
+        box-sizing: border-box;
+        flex-basis: 50%;
+}
+
+  .Title {
+    text-align: center;
+    font-size: 150px;
+    color: #ccf2ff;
+    text-shadow: -2px 2px 0 #000,
+				  2px 2px 0 #000,
+				 2px -2px 0 #000,
+				 -2px -2px 0 #000;
+    line-height: 155px;
+    margin: 2px 20px -50px 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+  
+  .Subtitle {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+    color: black;
+    text-align: center;
+    margin: 50px 20px -40px 20px;
+  }
+  
+  .Slogan {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: black;
+  }
+  
+  #lineTitle {
+    text-align: center;
+    font-size: 70px;
+    color: #ccf2ff;
+    text-shadow: -1px 1px 0 #000,
+				  1px 1px 0 #000,
+				 1px -1px 0 #000,
+				 -1px -1px 0 #000;
+    line-height: 10px;
+    margin: -30px 0 50px 0 ;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+  .Create-Game-Button {
+    color: black;
+    background-color: #ccf2ff;
+    border-color:  #ccf2ff;
+    border-radius: 7px;
+    border-width: 15px 15px;
+    font-size: large;
+  }

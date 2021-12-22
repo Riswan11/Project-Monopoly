@@ -1,0 +1,21 @@
+.addedButtons {
+    align-items: center;
+}
+
+.actualButton {
+    background-color: #ccf2ff;
+
+}
+
+#surveyTitle {
+    text-align: center;
+    font-size: 95px;
+    color: #ccf2ff;
+    text-shadow: -1px 1px 0 #000,
+				  1px 1px 0 #000,
+				 1px -1px 0 #000,
+				 -1px -1px 0 #000;
+    line-height: 100px;
+    margin: 50px 200px 30px 200px;
+    font-family: 'Times New Roman', Times, serif;
+}
