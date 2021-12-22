@@ -5,8 +5,8 @@ Project - Monopoly
 
 ## Quick Demo
 
-<video class="video" id="video-style" width="620" height="440" controls autoplay>
-            <source src="https://imgur.com/a/1XEPSKp" type="video/mp4">
+Please copy the link below to take a look at my app.
+<a href="https://imgur.com/a/1XEPSKp" </a>
 
 
 
