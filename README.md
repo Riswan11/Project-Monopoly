@@ -4,9 +4,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Project - Monopoly
 
 ## Quick Demo
+
 <video class="video" id="video-style" width="620" height="440" controls autoplay>
             <source src="https://imgur.com/a/1XEPSKp" type="video/mp4">
-<img src="https://imgur.com/a/1XEPSKp" width=200>
+
 
 
 ## Project Description
